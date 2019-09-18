@@ -1,22 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <top-navigation :categories="categories"></top-navigation>
+    <russia-map></russia-map>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RussiaMap from './components/RussiaMap.vue'
+import TopNavigation from './components/TopNavigation.vue'
+
 
 export default {
   name: 'app',
+  data: function() {
+    return {
+      categories: ['люди', 'места', 'животные', 'экономика']
+    }
+  },
   components: {
-    HelloWorld
+    RussiaMap,
+    TopNavigation,
   }
 }
 </script>
 
 <style>
+* {
+  box-sizing: border-box;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
