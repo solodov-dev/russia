@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <top-navigation :categories="categories"></top-navigation>
+    <top-navigation></top-navigation>
     <russia-map></russia-map>
   </div>
 </template>
@@ -12,11 +12,6 @@ import TopNavigation from './components/TopNavigation.vue'
 
 export default {
   name: 'app',
-  data: function() {
-    return {
-      categories: ['люди', 'места', 'животные', 'экономика']
-    }
-  },
   components: {
     RussiaMap,
     TopNavigation,

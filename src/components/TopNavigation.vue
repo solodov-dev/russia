@@ -2,14 +2,25 @@
     <nav>
         <ul class="menu">
             <li class="menu-item" v-for="(category, index) in categories" :key="index">
-                <a href="#" class="btn">{{category}}</a>
+                <a href="#" class="btn" @click="showLocations(category)">{{category}}</a>
             </li>
         </ul>
     </nav>
 </template>
 <script>
+import {eventBus} from '../main'
+
 export default {
-    props: ['categories']
+    data: function() {
+        return {
+            categories: ['people', 'places', 'animals', 'economy']
+        }
+    },
+    methods: {
+        showLocations(category) {
+            eventBus.$emit('categoryChanged', category)
+        }
+    }
 }
 </script>
 <style scoped>
