@@ -1,10 +1,12 @@
 <template>
-    <article>
-        <img :src="getSvg()">
-        <h1>{{ title }}</h1>
-        <p>{{ text }}</p>
-        <button @click="backToMap()">Back</button>
-    </article>
+    <transition name="fade">
+        <article>
+            <img :src="getSvg()">
+            <h1>{{ title }}</h1>
+            <p>{{ text }}</p>
+            <button @click="backToMap()">&times;</button>
+        </article>
+    </transition>
 </template>
 <script>
 import { eventBus } from "../main";
@@ -37,8 +39,15 @@ export default {
 </script>
 <style scoped>
     article {
-        margin: 0 auto;
-        width: 80vw;
+        z-index: 2;
+        background: white;
+        position: absolute;
+        padding: 50px;
+        top: 10%;
+        left: 20%;
+        width: 60%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
     img {
         height: 20vh;
@@ -47,5 +56,15 @@ export default {
     p {
         text-align: justify;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 30px;
+        border-radius: 50px;
+        border: none;
+        background: none;
     }
 </style>

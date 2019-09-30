@@ -9,8 +9,7 @@ export const mapData = [
   cy : "120",
   people: "tolstoy",
   places: "kremlin",
-  animals: "",
-  economy: ""
+  animals: "wolf"
 },
 {
   style :
@@ -21,9 +20,8 @@ export const mapData = [
   cx : "20",
   cy : "155",
   people: "chechov",
-  places: "kremlin",
-  animals: "",
-  economy: ""
+  places: "elbrus",
+  animals: "squirrel"
 },
 {
   style :
@@ -34,9 +32,8 @@ export const mapData = [
   cx : "63",
   cy : "100",
   people: "peter",
-  places: "kremlin",
-  animals: "",
-  economy: ""
+  places: "hermitage",
+  animals: "fox"
 },
 {
   style :
@@ -47,9 +44,8 @@ export const mapData = [
   cx : "57",
   cy : "135",
   people: "lenin",
-  places: "kremlin",
-  animals: "",
-  economy: ""
+  places: "kazkremlin",
+  animals: "hare"
 },
 {
   style :
@@ -60,9 +56,8 @@ export const mapData = [
   cx : "110",
   cy : "120",
   people: "bajov",
-  places: "kremlin",
-  animals: "",
-  economy: ""
+  places: "hramnakrovi",
+  animals: "moose"
 },
 {
   style :
@@ -74,8 +69,7 @@ export const mapData = [
   cy : "140",
   people: "surikov",
   places: "baikal",
-  animals: "",
-  economy: ""
+  animals: "bear"
 },
 {
   style :
@@ -87,7 +81,6 @@ export const mapData = [
   cy : "80",
   people: "shchetinina",
   places: "kamchatka",
-  animals: "",
-  economy: ""
+  animals: "reindeer"
 }
 ]

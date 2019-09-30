@@ -13,7 +13,7 @@ import {eventBus} from '../main'
 export default {
     data: function() {
         return {
-            categories: ['people', 'places', 'animals', 'economy']
+            categories: ['people', 'places', 'animals']
         }
     },
     methods: {

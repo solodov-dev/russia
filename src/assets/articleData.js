@@ -33,10 +33,50 @@ export const articleData = {
   },
   baikal: {
     title: "Lake Baikal",
-    text: "Lake Baikal (/baɪˈkɑːl, -ˈkæl/;Russian: о́зеро Байка́л) is a rift lake in Russia, located in southern Siberia, between Irkutsk Oblast to the northwest and the Buryat Republic to the southeast.Lake Baikal is the largest freshwater lake by volume in the world, containing 22–23% of the world's fresh surface water. With 23,615.39 km3 (5,670 cu mi) of fresh water, it contains more water than the North American Great Lakes combined. With a maximum depth of 1,642 m (5,387 ft), Baikal is the world's deepest lake. It is considered among the world's clearest lakes and is considered the world's oldest lake – at 25–30 million years. It is the seventh-largest lake in the world by surface area."
+    text: "Lake Baikal (Russian: о́зеро Байка́л) is a rift lake in Russia, located in southern Siberia, between Irkutsk Oblast to the northwest and the Buryat Republic to the southeast.Lake Baikal is the largest freshwater lake by volume in the world, containing 22–23% of the world's fresh surface water. With 23,615.39 km3 (5,670 cu mi) of fresh water, it contains more water than the North American Great Lakes combined. With a maximum depth of 1,642 m (5,387 ft), Baikal is the world's deepest lake. It is considered among the world's clearest lakes and is considered the world's oldest lake – at 25–30 million years. It is the seventh-largest lake in the world by surface area."
   },
   kamchatka: {
     title: "Kamchatka Peninsula",
-    text: "The Kamchatka Peninsula (Russian: полуо́стров Камча́тка, Poluostrov Kamchatka, IPA: [pəlʊˈostrəf kɐmˈt͡ɕætkə]) is a 1,250-kilometre-long (780 mi) peninsula in the Russian Far East, with an area of about 270,000 km2 (100,000 sq mi). The Pacific Ocean and the Sea of Okhotsk make up the peninsula's eastern and western coastlines, respectively. Immediately offshore along the Pacific coast of the peninsula runs the 10,500-metre (34,400-ft) deep Kuril–Kamchatka Trench."
+    text: "The Kamchatka Peninsula (Russian: полуо́стров Камча́тка) is a 1,250-kilometre-long (780 mi) peninsula in the Russian Far East, with an area of about 270,000 km2 (100,000 sq mi). The Pacific Ocean and the Sea of Okhotsk make up the peninsula's eastern and western coastlines, respectively. Immediately offshore along the Pacific coast of the peninsula runs the 10,500-metre (34,400-ft) deep Kuril–Kamchatka Trench."
+  },
+  elbrus: {
+    title: "Mount Elbrus",
+    text: "Mount Elbrus is the highest mountain in Europe, and the tenth most prominent peak in the world. A dormant volcano, Elbrus is in the Caucasus Mountains in Southern Russia, near the border with Georgia. Elbrus has two summits, both of which are dormant volcanic domes."
+  },
+  hermitage: {
+    title: "Hermitage Museum",
+    text: "The State Hermitage Museum is a museum of art and culture in Saint Petersburg, Russia. The second-largest art museum in the world, it was founded in 1764 when Empress Catherine the Great acquired an impressive collection of paintings from the Berlin merchant Johann Ernst Gotzkowsky. The museum celebrates the anniversary of its founding each year on 7 December, Saint Catherine's Day. It has been open to the public since 1852."
+  },
+  kazkremlin: {
+    title: "Kazan Kremlin",
+    text: "The Kazan Kremlin is the chief historic citadel of Tatarstan, situated in the city of Kazan. It was built at the behest of Ivan the Terrible on the ruins of the former castle of Kazan khans. It was declared a World Heritage Site in 2000."
+  },
+  hramnakrovi: {
+    title: "Church of All Saints",
+    text: "The Church on Blood in Honour of All Saints Resplendent in the Russian Land is a Russian Orthodox church built on the site of the Ipatiev House in Yekaterinburg, where Nicholas II, the last Emperor of Russia, and his family, along with members of the household, were shot by the Bolsheviks during the Russian Civil War. The church commemorates the Romanov sainthood."
+  },
+  bear: {
+    title: "Bear",
+    text: "Bears are carnivoran mammals of the family Ursidae. They are classified as caniforms, or doglike carnivorans. Although only eight species of bears are extant, they are widespread, appearing in a wide variety of habitats throughout the Northern Hemisphere and partially in the Southern Hemisphere."
+  },
+  hare: {
+    title: "Hare",
+    text: "Hares and jackrabbits are leporids belonging to the genus Lepus. Hares are classified into the same family as rabbits. They are similar in size and form to rabbits and eat the same diet. They are generally herbivorous and long-eared, they are fast runners, and they typically live solitarily or in pairs. Hare species are native to Africa, Eurasia, North America, and the Japanese archipelago."
+  },
+  fox: {
+    title: "Fox",
+    text: "Foxes are small-to-medium-sized, omnivorous mammals belonging to several genera of the family Canidae. Foxes have a flattened skull, upright triangular ears, a pointed, slightly upturned snout, and a long bushy tail."
+  },
+  moose: {
+    title: "Moose",
+    text: "The moose or elk, Alces alces, is the largest extant species in the deer family. Moose are distinguished by the broad, flat antlers of the males; other members of the family have antlers with a dendritic configuration."
+  },
+  squirrel: {
+    title: "Squirrel",
+    text: "Squirrels are members of the family Sciuridae, a family that includes small or medium-size rodents. The squirrel family includes tree squirrels, ground squirrels, chipmunks, marmots, flying squirrels, and prairie dogs amongst other rodents."
+  },
+  reindeer: {
+    title: "Reindeer",
+    text: "he reindeer, also known as the caribou in North America, is a species of deer with circumpolar distribution, native to Arctic, sub-Arctic, tundra, boreal and mountainous regions of northern Europe, Siberia and North America. This includes both sedentary and migratory populations."
   }
 };

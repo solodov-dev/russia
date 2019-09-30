@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <top-navigation v-show="!articleIsOpened"></top-navigation>
-    <russia-map v-show="!articleIsOpened"></russia-map>
+    <top-navigation></top-navigation>
+    <russia-map></russia-map>
     <entry-article v-show="articleIsOpened"></entry-article>
   </div>
 </template>
@@ -50,4 +50,17 @@ export default {
   margin-top: 60px;
   width: 100%;
 }
+
+ .fade-enter {
+    opacity: 0;
+  }
+
+  .fade-enter-active {
+    transition: opacity .7s;
+  }
+
+  .fade-leave-active {
+    transition: opacity .7s;
+    opacity: 0;
+  }
 </style>
