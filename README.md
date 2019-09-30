@@ -1,6 +1,6 @@
 # Russia
 
-Interactive map of Russia. Build with Vue.js
+Interactive map of Russia. Built with Vue.js
 
 ## Project setup
 ```
