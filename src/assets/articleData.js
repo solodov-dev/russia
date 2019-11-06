@@ -78,5 +78,9 @@ export const articleData = {
   reindeer: {
     title: "Reindeer",
     text: "he reindeer, also known as the caribou in North America, is a species of deer with circumpolar distribution, native to Arctic, sub-Arctic, tundra, boreal and mountainous regions of northern Europe, Siberia and North America. This includes both sedentary and migratory populations."
-  }
+  },
+  wolf: {
+    title: "Wolf",
+    text: "The wolf, also known as the gray/grey wolf, is a canine native to the wilderness and remote areas of Eurasia and North America. It is the largest extant member of its family, with males averaging 40 kg and females 35.5 - 37.7 kg.",
+  },
 };
